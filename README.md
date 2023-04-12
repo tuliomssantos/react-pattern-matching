@@ -8,3 +8,5 @@ Read the introduction blog post: [Bringing Pattern Matching to TypeScript 🎨 I
 
 See [ts-pattern documentation](https://github.com/gvergnaud/ts-pattern)
 
+
+See [ts-pattern with zod](https://codesandbox.io/s/example-ts-pattern-zod-h0z2q)
