@@ -43,11 +43,13 @@ export default function BasicPatternMatch() {
 
   return (
     <div>
+      <h1>Basic Pattern Matching</h1>
       {match(state)
         .with({ type: "loading" }, () => <div>Loading...</div>)
         .with({ type: "error" }, () => <div>Error</div>)
         .with({ type: "success" }, ({ data }) => <div>{data.message}</div>)
         .exhaustive()}
+        <hr />
     </div>
   );
 }
